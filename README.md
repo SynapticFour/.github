@@ -2,4 +2,4 @@
 
 GitHub shows [`profile/README.md`](profile/README.md) at [github.com/SynapticFour](https://github.com/SynapticFour).
 
-Canonical suite map: [Ferrum `docs/SUITE-OVERVIEW.md`](https://github.com/SynapticFour/Ferrum/blob/main/docs/SUITE-OVERVIEW.md).
+Canonical map: [`profile/SUITE-OVERVIEW.md`](profile/SUITE-OVERVIEW.md). GitHub shows [`profile/README.md`](profile/README.md) at [github.com/SynapticFour](https://github.com/SynapticFour).
