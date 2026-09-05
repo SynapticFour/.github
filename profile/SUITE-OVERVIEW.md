@@ -6,6 +6,8 @@ Composition is pin-based: consumers declare which tag or SHA of another reposito
 
 **Released join:** this map describes tagged/SHA pins, not `main`. A product `main` may be ahead of the join. A green laptop run against a pin is not proof of that product’s `main`.
 
+**Development freeze (2026-09):** feature work is paused. The tables below classify every public, non-archived repository so a stranger is not left guessing.
+
 ## Maturity labels
 
 | Label | Meaning |
@@ -31,7 +33,31 @@ Composition is pin-based: consumers declare which tag or SHA of another reposito
 
 Related, not in this table: [HelixTest](https://github.com/SynapticFour/HelixTest) (GA4GH OpenAPI tests against a running target). A green job is a technical signal, not GA4GH certification.
 
-Evaluator entry points live in `docs/FOR-EVALUATORS.md` on Ferrum, ga4gh-infra, Solum, BioResearch Assistant, and HELIOS.
+Evaluator entry points live in `docs/FOR-EVALUATORS.md` on Ferrum, ga4gh-infra, Solum, BioResearch Assistant, HELIOS, and Helix.
+
+## Also public (not in the join)
+
+These repositories are public and **not** part of the ten-repo released join. They are not a combo SKU with Ferrum.
+
+| Repository | Role | Freeze status |
+|------------|------|----------------|
+| [Helix](https://github.com/SynapticFour/Helix) | VERIFY CLI. HelixTest becoming a standalone product. Conformance / security behaviour / benchmark. **Not HELIOS.** Not GA4GH certification. | Untagged early-access |
+| [helix-action](https://github.com/SynapticFour/helix-action) | GitHub Action around `helix verify`. Not a product SKU. | Ambassador wrapper |
+| [helixtest-action](https://github.com/SynapticFour/helixtest-action) | GitHub Action around HelixTest release binaries. Not a product SKU. Pin may lag the suite tag. | Ambassador wrapper |
+| [Open-Source-GA4GH-Stack](https://github.com/SynapticFour/Open-Source-GA4GH-Stack) | Upstream OSS Compose/Helm kit for comparison with Lab Kit. **Not Ferrum.** | Teaching / comparison |
+| [gatk-rs](https://github.com/SynapticFour/gatk-rs) | Independent GATK4 HaplotypeCaller spine research. Not Broad. Not required for the Ferrum join. | Research / Alpha |
+| [technical-reports](https://github.com/SynapticFour/technical-reports) | SF-TR series. Not GA4GH certification. | Citation archive |
+| [S4MP](https://github.com/SynapticFour/S4MP) | Heuristic Java↔Rust port maps. `certify` ≠ semantic equivalence. Not a SKU. | Paused tooling |
+| [cognitive-landscape-research-programme](https://github.com/SynapticFour/cognitive-landscape-research-programme) | Research programme constitution. Not a product SKU. Not diagnostic. | Paused research |
+| [cognitive-landscape-model](https://github.com/SynapticFour/cognitive-landscape-model) | CLM modelling library. Not a SKU. Not diagnostic. Not Ferrum. | Paused research |
+| [perceptual-cognitive-mapping-system](https://github.com/SynapticFour/perceptual-cognitive-mapping-system) | PCMS research instrument. Not a SKU. Not diagnostic. Not a GDPR certification. | Paused research; live demo may stay up |
+| [.github](https://github.com/SynapticFour/.github) | This organisation profile. | Map you are reading |
+
+## Archived / private (do not treat as join)
+
+**Archived (parked, not Ferrum):** [Synaptic-Core-Demo](https://github.com/SynapticFour/Synaptic-Core-Demo), [sc-specs](https://github.com/SynapticFour/sc-specs), [sc-transport](https://github.com/SynapticFour/sc-transport), [SecureCollab](https://github.com/SynapticFour/SecureCollab), [vibecheck](https://github.com/SynapticFour/vibecheck).
+
+**Private:** mycelium-relay is a private bootstrap relay, not a public product.
 
 ## What this is not
 
