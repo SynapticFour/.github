@@ -6,7 +6,7 @@ Composition is pin-based: consumers declare which tag or SHA of another reposito
 
 **Released join:** this map describes tagged/SHA pins, not `main`. A product `main` may be ahead of the join. A green laptop run against a pin is not proof of that product’s `main`.
 
-**Development freeze (2026-09):** feature work is paused. The tables below classify every public, non-archived repository so a stranger is not left guessing.
+The tables below classify every public, non-archived repository so a stranger is not left guessing.
 
 ## Maturity labels
 
@@ -39,7 +39,7 @@ Evaluator entry points live in `docs/FOR-EVALUATORS.md` on Ferrum, ga4gh-infra, 
 
 These repositories are public and **not** part of the ten-repo released join. They are not a combo SKU with Ferrum.
 
-| Repository | Role | Freeze status |
+| Repository | Role | Status |
 |------------|------|----------------|
 | [Helix](https://github.com/SynapticFour/Helix) | VERIFY CLI. HelixTest becoming a standalone product. Conformance / security behaviour / benchmark. **Not HELIOS.** Not GA4GH certification. | Untagged early-access |
 | [helix-action](https://github.com/SynapticFour/helix-action) | GitHub Action around `helix verify`. Not a product SKU. | Ambassador wrapper |
@@ -47,10 +47,10 @@ These repositories are public and **not** part of the ten-repo released join. Th
 | [Open-Source-GA4GH-Stack](https://github.com/SynapticFour/Open-Source-GA4GH-Stack) | Upstream OSS Compose/Helm kit for comparison with Lab Kit. **Not Ferrum.** | Teaching / comparison |
 | [gatk-rs](https://github.com/SynapticFour/gatk-rs) | Independent GATK4 HaplotypeCaller spine research. Not Broad. Not required for the Ferrum join. | Research / Alpha |
 | [technical-reports](https://github.com/SynapticFour/technical-reports) | SF-TR series. Not GA4GH certification. | Citation archive |
-| [S4MP](https://github.com/SynapticFour/S4MP) | Heuristic Java↔Rust port maps. `certify` ≠ semantic equivalence. Not a SKU. | Paused tooling |
-| [cognitive-landscape-research-programme](https://github.com/SynapticFour/cognitive-landscape-research-programme) | Research programme constitution. Not a product SKU. Not diagnostic. | Paused research |
-| [cognitive-landscape-model](https://github.com/SynapticFour/cognitive-landscape-model) | CLM modelling library. Not a SKU. Not diagnostic. Not Ferrum. | Paused research |
-| [perceptual-cognitive-mapping-system](https://github.com/SynapticFour/perceptual-cognitive-mapping-system) | PCMS research instrument. Not a SKU. Not diagnostic. Not a GDPR certification. | Paused research; live demo may stay up |
+| [S4MP](https://github.com/SynapticFour/S4MP) | Heuristic Java↔Rust port maps. `certify` ≠ semantic equivalence. Not a SKU. | Heuristic tooling |
+| [cognitive-landscape-research-programme](https://github.com/SynapticFour/cognitive-landscape-research-programme) | Research programme constitution. Not a product SKU. Not diagnostic. | Research |
+| [cognitive-landscape-model](https://github.com/SynapticFour/cognitive-landscape-model) | CLM modelling library. Not a SKU. Not diagnostic. Not Ferrum. | Research |
+| [perceptual-cognitive-mapping-system](https://github.com/SynapticFour/perceptual-cognitive-mapping-system) | PCMS research instrument. Not a SKU. Not diagnostic. Not a GDPR certification. | Research; live demo |
 | [.github](https://github.com/SynapticFour/.github) | This organisation profile. | Map you are reading |
 
 ## Archived / private (do not treat as join)
