@@ -18,7 +18,7 @@ These public repositories are maintained by the same organisation and are design
 
 Companions and demos are listed in [SUITE-OVERVIEW](SUITE-OVERVIEW.md). Related: [HelixTest](https://github.com/SynapticFour/HelixTest) — GA4GH OpenAPI tests against a running target.
 
-Other public repositories (Helix VERIFY, research, tooling) and archived/private parked trees are classified in [SUITE-OVERVIEW](SUITE-OVERVIEW.md) so they are not mistaken for the released join.
+Other public repositories (Helix VERIFY, research, tooling) are classified in [SUITE-OVERVIEW](SUITE-OVERVIEW.md) so they are not mistaken for the released join.
 
 Not a medical device. Not legal advice. Not a third-party security audit.
 

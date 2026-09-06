@@ -6,13 +6,13 @@ Composition is pin-based: consumers declare which tag or SHA of another reposito
 
 **Released join:** this map describes tagged/SHA pins, not `main`. A product `main` may be ahead of the join. A green laptop run against a pin is not proof of that product’s `main`.
 
-The tables below classify every public, non-archived repository so a stranger is not left guessing.
+The tables below classify public repositories so a stranger is not left guessing.
 
 ## Maturity labels
 
 | Label | Meaning |
 |-------|---------|
-| **Active (beta)** | Maintained. One maintainer. Not a third-party audit. Not GA4GH certification. Not a “production-ready” claim. |
+| **Active (beta)** | Maintained. Not a third-party audit. Not GA4GH certification. Not a “production-ready” claim. |
 | **Early access** | Public source; evaluation. Expect gaps. |
 | **Reference / demo** | Laptop evidence of a pinned product. Not a product, not a pilot, not production proof. |
 
@@ -51,11 +51,14 @@ These repositories are public and **not** part of the ten-repo released join. Th
 | [cognitive-landscape-research-programme](https://github.com/SynapticFour/cognitive-landscape-research-programme) | Research programme constitution. Not a product SKU. Not diagnostic. | Research |
 | [cognitive-landscape-model](https://github.com/SynapticFour/cognitive-landscape-model) | CLM modelling library. Not a SKU. Not diagnostic. Not Ferrum. | Research |
 | [perceptual-cognitive-mapping-system](https://github.com/SynapticFour/perceptual-cognitive-mapping-system) | PCMS research instrument. Not a SKU. Not diagnostic. Not a GDPR certification. | Research; live demo |
+| [Synaptic-Core-Demo](https://github.com/SynapticFour/Synaptic-Core-Demo) | Laptop harness against Synaptic Core. Not Ferrum. | Demo / harness |
+| [sc-specs](https://github.com/SynapticFour/sc-specs) | OpenAPI/AsyncAPI text for Synaptic Core. Not Ferrum APIs. | Specs |
+| [sc-transport](https://github.com/SynapticFour/sc-transport) | Transport crates for Synaptic Core. Not Ferrum. | Library |
+| [SecureCollab](https://github.com/SynapticFour/SecureCollab) | Multi-party statistics on homomorphically encrypted datasets. Research prototype. | Research |
+| [vibecheck](https://github.com/SynapticFour/vibecheck) | Local scanner for AI-generated codebases. | Tooling |
 | [.github](https://github.com/SynapticFour/.github) | This organisation profile. | Map you are reading |
 
-## Archived / private (do not treat as join)
-
-**Archived (parked, not Ferrum):** [Synaptic-Core-Demo](https://github.com/SynapticFour/Synaptic-Core-Demo), [sc-specs](https://github.com/SynapticFour/sc-specs), [sc-transport](https://github.com/SynapticFour/sc-transport), [SecureCollab](https://github.com/SynapticFour/SecureCollab), [vibecheck](https://github.com/SynapticFour/vibecheck).
+## Private (do not treat as join)
 
 **Private:** mycelium-relay is a private bootstrap relay, not a public product.
 
