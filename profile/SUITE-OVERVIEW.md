@@ -4,6 +4,14 @@ These public repositories are maintained by Synaptic Four and are designed to wo
 
 **Released join:** the tables below describe tagged and SHA pins. A product `main` may be ahead of the join.
 
+## Stranger path (~30 min)
+
+Not certification. Not a production or clinical pilot. Commands and the `:18080` vs `:8080` trap: [org profile](README.md#try-it-30-min).
+
+1. Helix `make prove` / `make verify-drs` (no Docker; sibling HelixTest pin).
+2. [Ferrum-GA4GH-Demo](https://github.com/SynapticFour/Ferrum-GA4GH-Demo) `./run` (Docker; tagged Ferrum v0.3.2).
+3. Optional: HelixTest against `http://127.0.0.1:18080`. Longer pack: [Showcase](https://github.com/SynapticFour/SynapticFour-Showcase) `make up`.
+
 ## Maturity labels
 
 | Label | Meaning |
