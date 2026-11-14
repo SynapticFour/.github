@@ -58,7 +58,7 @@ The service named in sc-specs, sc-transport, and Synaptic-Core-Demo is not a pub
 | [S4MP](https://github.com/SynapticFour/S4MP) | Heuristic Java-to-Rust port maps. `certify` records a confirmed review, not semantic equivalence. | No public status is recorded |
 | [cognitive-landscape-research-programme](https://github.com/SynapticFour/cognitive-landscape-research-programme) | Research programme constitution. Not diagnostic. | No public status is recorded |
 | [cognitive-landscape-model](https://github.com/SynapticFour/cognitive-landscape-model) | CLM modelling library. Not diagnostic. | No public status is recorded |
-| [perceptual-cognitive-mapping-system](https://github.com/SynapticFour/perceptual-cognitive-mapping-system) | PCMS research instrument. Live demo. Not diagnostic. | No public status is recorded |
+| [perceptual-cognitive-mapping-system](https://github.com/SynapticFour/perceptual-cognitive-mapping-system) | PCMS research instrument. Public questionnaire. Not diagnostic. | No public status is recorded |
 | [Synaptic-Core-Demo](https://github.com/SynapticFour/Synaptic-Core-Demo) | Laptop harness. The service it talks to is not a public repository. Compute is a busybox echo, not a scientific pipeline. | No public status is recorded |
 | [sc-specs](https://github.com/SynapticFour/sc-specs) | API specifications for object identity, tasks, workflows, discovery, and provenance | The service is not a public repository |
 | [sc-transport](https://github.com/SynapticFour/sc-transport) | Transport crates for telemetry of that same service | The service is not a public repository |
